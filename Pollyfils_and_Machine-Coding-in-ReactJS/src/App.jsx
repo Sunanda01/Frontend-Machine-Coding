@@ -3,8 +3,8 @@
 // import CustomDrawer from "./views/Machine-Coding-ReactJS/custom-drawer";
 // import UseCustomMemo from "./views/custom-use-memo";
 // import UseCustomEffect from "./views/custom-useEffect-hook";
-
 import Accordian from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian";
+import { items } from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian/items";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <CustomAPIFetch />
       <UseCustomEffect/>
       <UseCustomMemo/> */}
-      <Accordian/>
+      <Accordian items={items} />
     </>
   );
 }
