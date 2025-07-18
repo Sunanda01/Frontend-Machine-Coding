@@ -5,7 +5,8 @@
 // import UseCustomEffect from "./views/custom-useEffect-hook";
 // import Accordian from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian";
 // import { items } from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian/items";
-import TODO_List from "./views/Machine-Coding-ReactJS/Akshay_Saini/To-Do_List";
+// import TODO_List from "./views/Machine-Coding-ReactJS/Akshay_Saini/To-Do_List";
+import ChipsInput from "./views/Machine-Coding-ReactJS/Akshay_Saini/Chips_Input";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <UseCustomEffect/> */}
       {/* <UseCustomMemo/> */}
       {/* <Accordian items={items} /> */}
-      <TODO_List/>
+      {/* <TODO_List/> */}
+      <ChipsInput/>
     </>
   );
 }
