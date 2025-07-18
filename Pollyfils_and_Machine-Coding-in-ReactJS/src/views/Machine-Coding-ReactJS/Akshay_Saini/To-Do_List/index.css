@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.main-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  gap: 1rem;
+  width: 25%;
+}
+input {
+  background-color: rgb(240, 240, 240);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(116, 113, 114);
+  flex: auto;
+  font-size: medium;
+}
+.add-btn {
+  font-size: medium;
+  background-color: rgb(90, 254, 93);
+  padding: 0 2rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(27, 186, 27);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.del-btn {
+  background-color: rgb(240, 30, 30);
+  padding: 0.7rem;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(255, 255, 255);
+  color: white;
+  font-weight: bold;
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+.list-container {
+  width: 25%;
+  display: flex;
+}
+ul {
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: disc;
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+li {
+  display: flex;
+  width: 100%;
+  background-color: rgb(240, 235, 246);
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  height: 3rem;
+  border-radius: 1rem;
+}
+.content {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+.checkbox-style {
+  width: 20px;
+  height: 20px;
+  accent-color: blue;
+  cursor: pointer;
+}
+span {
+  font-size: 1.3rem;
+}
+.strike-through {
+  text-decoration: line-through;
+}

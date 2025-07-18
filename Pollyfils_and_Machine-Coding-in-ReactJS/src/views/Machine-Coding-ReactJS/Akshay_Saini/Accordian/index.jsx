@@ -12,6 +12,7 @@ const Accordian = ({ items }) => {
   ) : (
     <div className="main-container">
       <div className="item-container">
+        <h1 style={{textAlign:"center"}}>Accordian Machine Coding</h1>
         {items.map((item, index) => (
           <div className="item-style" key={index}>
             <div className="item-title" onClick={() => handleToggleItem(index)}>

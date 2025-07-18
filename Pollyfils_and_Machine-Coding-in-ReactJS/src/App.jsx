@@ -3,18 +3,20 @@
 // import CustomDrawer from "./views/Machine-Coding-ReactJS/custom-drawer";
 // import UseCustomMemo from "./views/custom-use-memo";
 // import UseCustomEffect from "./views/custom-useEffect-hook";
-import Accordian from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian";
-import { items } from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian/items";
+// import Accordian from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian";
+// import { items } from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian/items";
+import TODO_List from "./views/Machine-Coding-ReactJS/Akshay_Saini/To-Do_List";
 
 function App() {
   return (
     <>
       {/* <h1>Machine Coding</h1> */}
-      {/* <CustomDrawer/>
-      <CustomAPIFetch />
-      <UseCustomEffect/>
-      <UseCustomMemo/> */}
-      <Accordian items={items} />
+      {/* <CustomDrawer/> */}
+      {/* <CustomAPIFetch /> */}
+      {/* <UseCustomEffect/> */}
+      {/* <UseCustomMemo/> */}
+      {/* <Accordian items={items} /> */}
+      <TODO_List/>
     </>
   );
 }
