@@ -1,0 +1,20 @@
+.otp-input {
+  text-align: center;
+  height: 40px;
+  width: 50px;
+  margin: 5px;
+  font-size: 25px;
+  background-color: rgb(212, 255, 212);
+  border: 1px solid rgb(15, 187, 15);
+  color: rgb(10, 155, 51);
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.otp-input:hover {
+  outline: auto;
+  background-color: rgb(192, 249, 192);
+}
+.otp-input:focus {
+  outline: auto;
+  background-color: rgb(192, 249, 192);
+}

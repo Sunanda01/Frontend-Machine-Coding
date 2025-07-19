@@ -7,8 +7,8 @@
 // import { items } from "./views/Machine-Coding-ReactJS/Akshay_Saini/Accordian/items";
 // import TODO_List from "./views/Machine-Coding-ReactJS/Akshay_Saini/To-Do_List";
 // import ChipsInput from "./views/Machine-Coding-ReactJS/Akshay_Saini/Chips_Input";
-
-import ProgressBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/Progress_Bar";
+// import ProgressBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/Progress_Bar";
+import OtpInputBox from "./views/Machine-Coding-ReactJS/Akshay_Saini/OTP_Input";
 
 function App() {
   return (
@@ -21,7 +21,8 @@ function App() {
       {/* <Accordian items={items} /> */}
       {/* <TODO_List/> */}
       {/* <ChipsInput/> */}
-      <ProgressBar/>
+      {/* <ProgressBar/> */}
+      <OtpInputBox/>
     </>
   );
 }
