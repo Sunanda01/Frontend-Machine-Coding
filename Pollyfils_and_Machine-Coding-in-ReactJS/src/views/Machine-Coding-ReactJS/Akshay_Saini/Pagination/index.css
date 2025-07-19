@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(192, 237, 146);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 3px solid rgb(13, 196, 196);
+  border-radius: 5%;
+  /* height: auto; */
+  width: 20%;
+  margin: 1%;
+  background-color: rgb(209, 254, 254);
+}
+.product-card:hover {
+  border: 3px solid rgb(36, 12, 171);
+  background-color: rgb(217, 211, 255);
+}
+span {
+  text-align: center;
+  font-size: larger;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.page-number-btn {
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.page-key {
+  border-radius: 30%;
+  padding: 10px 15px;
+  background-color: pink;
+  border: 1px solid rgb(251, 63, 94);
+  cursor: pointer;
+  font-weight: bold;
+}
+.active {
+  background-color: rgb(237, 12, 50);
+  color: white;
+  border: 1px solid rgb(190, 26, 53);
+}
+.page-key:hover {
+  background-color: rgb(252, 141, 160);
+  color: white;
+  border: 1px solid rgb(190, 26, 53);
+}
+.icon {
+  height: 2.5%;
+  width: 2.5%;
+  color: rgb(251, 63, 94);
+  fill: rgb(255, 246, 247);
+  cursor: pointer;
+}
+.icon:hover {
+  fill: rgb(237, 12, 50);
+  color: white;
+}
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.input-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  height: 20px;
+  width: 4%;
+  border-radius: 8px;
+  border: 3px solid rgb(23, 137, 23);
+
+  padding: 10px 25px;
+  font-size: 25px;
+  font-weight: bold;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+input:focus {
+  outline: 1px solid rgb(12, 116, 12);
+  /* border: 3px solid ; */
+}

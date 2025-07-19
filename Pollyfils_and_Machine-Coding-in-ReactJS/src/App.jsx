@@ -8,7 +8,9 @@
 // import TODO_List from "./views/Machine-Coding-ReactJS/Akshay_Saini/To-Do_List";
 // import ChipsInput from "./views/Machine-Coding-ReactJS/Akshay_Saini/Chips_Input";
 // import ProgressBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/Progress_Bar";
-import OtpInputBox from "./views/Machine-Coding-ReactJS/Akshay_Saini/OTP_Input";
+// import OtpInputBox from "./views/Machine-Coding-ReactJS/Akshay_Saini/OTP_Input";
+
+import ProductPagination from "./views/Machine-Coding-ReactJS/Akshay_Saini/Pagination";
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
       {/* <TODO_List/> */}
       {/* <ChipsInput/> */}
       {/* <ProgressBar/> */}
-      <OtpInputBox/>
+      {/* <OtpInputBox/> */}
+      <ProductPagination/>
     </>
   );
 }
