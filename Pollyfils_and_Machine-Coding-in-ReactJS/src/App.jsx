@@ -9,8 +9,8 @@
 // import ChipsInput from "./views/Machine-Coding-ReactJS/Akshay_Saini/Chips_Input";
 // import ProgressBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/Progress_Bar";
 // import OtpInputBox from "./views/Machine-Coding-ReactJS/Akshay_Saini/OTP_Input";
-
-import ProductPagination from "./views/Machine-Coding-ReactJS/Akshay_Saini/Pagination";
+// import ProductPagination from "./views/Machine-Coding-ReactJS/Akshay_Saini/Pagination";
+import AutoCompleteSearchBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/AutoComplete_Search_Bar";
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
       {/* <ChipsInput/> */}
       {/* <ProgressBar/> */}
       {/* <OtpInputBox/> */}
-      <ProductPagination/>
+      {/* <ProductPagination/> */}
+      <AutoCompleteSearchBar/>
     </>
   );
 }
