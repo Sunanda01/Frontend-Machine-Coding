@@ -10,7 +10,8 @@
 // import ProgressBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/Progress_Bar";
 // import OtpInputBox from "./views/Machine-Coding-ReactJS/Akshay_Saini/OTP_Input";
 // import ProductPagination from "./views/Machine-Coding-ReactJS/Akshay_Saini/Pagination";
-import AutoCompleteSearchBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/AutoComplete_Search_Bar";
+// import AutoCompleteSearchBar from "./views/Machine-Coding-ReactJS/Akshay_Saini/AutoComplete_Search_Bar";
+import TabForm from "./views/Machine-Coding-ReactJS/Akshay_Saini/Tab_Form_Component";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <ProgressBar/> */}
       {/* <OtpInputBox/> */}
       {/* <ProductPagination/> */}
-      <AutoCompleteSearchBar/>
+      {/* <AutoCompleteSearchBar/> */}
+      <TabForm />
     </>
   );
 }
