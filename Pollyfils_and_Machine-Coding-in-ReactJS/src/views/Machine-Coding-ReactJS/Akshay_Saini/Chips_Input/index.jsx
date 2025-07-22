@@ -39,6 +39,7 @@ const ChipsInput = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => handleKeyDown(e)}
+          autoFocus
         />
         <div className="chip-container">
           {chipList &&

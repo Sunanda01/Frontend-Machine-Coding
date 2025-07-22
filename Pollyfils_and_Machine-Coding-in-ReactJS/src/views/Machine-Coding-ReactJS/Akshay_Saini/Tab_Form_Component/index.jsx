@@ -98,7 +98,11 @@ const TabForm = () => {
       <div className="btn-container">
         <button
           className="btn"
-          onClick={() => setactiveComponent((pre) => Math.max(pre - 1, 0))}
+          onClick={() => {
+            if (ComponentList[activeComponent]?.validate?.()) {
+              setactiveComponent((pre) => Math.max(pre - 1, 0));
+            }
+          }}
           disabled={activeComponent === 0}
         >
           Back
@@ -106,8 +110,8 @@ const TabForm = () => {
         <button
           className="btn"
           onClick={() => {
-            if (ComponentList[activeComponent].validate()) {
-              console.log(ComponentList[activeComponent].validate());
+            if (ComponentList[activeComponent]?.validate?.()) {
+              // console.log(ComponentList[activeComponent]?.validate?.());
               setactiveComponent((pre) =>
                 Math.min(pre + 1, ComponentList.length - 1)
               );
@@ -118,7 +122,14 @@ const TabForm = () => {
           Next
         </button>
         {activeComponent === ComponentList.length - 1 && (
-          <button className="btn" onClick={() => console.log(data)}>
+          <button
+            className="btn"
+            onClick={() => {
+              if (ComponentList[activeComponent]?.validate?.()) {
+                console.log(data);
+              }
+            }}
+          >
             Submit
           </button>
         )}

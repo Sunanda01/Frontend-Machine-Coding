@@ -60,6 +60,7 @@ const TODO_List = () => {
           placeholder="Enter Todo"
           value={item}
           onChange={(e) => setItem(e.target.value)}
+          autoFocus
         />
         <button onClick={handleAddTodo} className="add-btn">
           Add
