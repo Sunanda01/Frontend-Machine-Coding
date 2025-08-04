@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.main-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 1rem;
+}
+.countdown-container {
+  display: flex;
+  gap: 3rem;
+  width:40%;
+  align-items: center;
+  justify-content: center;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.timer-heading {
+  font-size: 2.5rem;
+  font-family: arial;
+}
+.timer-display-style {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+gap:.2rem;
+}
+input {
+  display: flex;
+  text-align: center;
+  height: 4rem;
+  font-size: 3rem;
+  width: 5rem;
+  border: none;
+  color: rgb(68, 68, 68);
+}
+input:focus {
+  outline: none;
+}
+.timer-display-colon {
+  text-align: center;
+  font-size: 4rem;
+  align-items: center;
+  display: flex;
+  color: gray;
+}
+.button-container{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+button{
+    display: flex;
+    flex:content;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: .3rem;
+    color: white;
+    border: none;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+}
